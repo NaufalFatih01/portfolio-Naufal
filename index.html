@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio pribadi Naufal — mahasiswa Informatika dan calon Web Developer.">
+  <title>Naufal | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <header class="navbar">
+    <a class="brand" href="#home">N<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">☰</button>
+    <nav id="navMenu">
+      <a href="#home" class="nav-link active">Beranda</a>
+      <a href="#about" class="nav-link">Tentang</a>
+      <a href="#skills" class="nav-link">Keahlian</a>
+      <a href="#projects" class="nav-link">Proyek</a>
+      <a href="#contact" class="nav-link">Kontak</a>
+    </nav>
+    <a class="nav-cta" href="#contact">Hubungi Saya <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> TERBUKA UNTUK KOLABORASI</div>
+        <p class="hero-intro">Halo, saya</p>
+        <h1>Naufal<br><span>Fatih.</span></h1>
+        <h2>Informatics Student <i>·</i> Aspiring Web Developer</h2>
+        <p class="hero-description">Saya tertarik membangun website dan aplikasi yang fungsional, menarik, serta memberikan pengalaman yang nyaman bagi penggunanya.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Lihat Proyek <span>↘</span></a>
+          <a class="button secondary" href="#contact">Mari Terhubung</a>
+        </div>
+        <div class="hero-meta"><span>📍 Indonesia</span><span>✦ Terus belajar dan berkembang</span></div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="profile-card">
+          <div class="card-top"><span>PERSONAL PROFILE</span><span class="tiny-dot"></span></div>
+          <div class="avatar">N<span>.</span></div>
+          <p class="profile-name">Naufal Fatih</p>
+          <p class="profile-role">INFORMATIKA STUDENT</p>
+          <div class="profile-line"></div>
+          <div class="profile-bottom"><span>CREATIVE THINKER</span><span>2026 — NOW</span></div>
+        </div>
+        <div class="float-chip chip-code"><span>⌘</span> HTML · CSS · JS</div>
+        <div class="float-chip chip-build">✦ BUILD & LEARN</div>
+        <div class="hero-number">01 <span>/ 05</span></div>
+      </div>
+      <a class="scroll-hint" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-label reveal">01 / TENTANG SAYA</div>
+      <div class="about-grid">
+        <h2 class="section-heading reveal">Belajar hari ini,<br><span>membangun esok.</span></h2>
+        <div class="about-copy reveal">
+          <p>Saya adalah mahasiswa Informatika yang memiliki ketertarikan pada dunia teknologi, khususnya pengembangan website dan aplikasi. Saya senang mempelajari hal baru, mencoba ide, dan mengubahnya menjadi karya digital.</p>
+          <p>Saat ini saya terus mengembangkan kemampuan pemrograman, logika, dan problem solving sebagai bekal untuk berkarier di bidang teknologi.</p>
+          <div class="quick-facts">
+            <div><strong>01</strong><span>Terus belajar</span></div>
+            <div><strong>02</strong><span>Berpikir kreatif</span></div>
+            <div><strong>03</strong><span>Berorientasi solusi</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-label reveal">02 / KEAHLIAN</div>
+      <div class="section-title-row reveal"><h2 class="section-heading">Tools & <span>Skills.</span></h2><p>Kemampuan yang sedang saya pelajari dan kembangkan.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-icon">〈/〉</div><h3>HTML</h3><p>Menyusun struktur halaman web yang rapi dan mudah dipahami.</p><div class="skill-track"><span style="width:80%"></span></div><small>SEDANG DIKEMBANGKAN</small></article>
+        <article class="skill-card reveal"><div class="skill-icon">✳</div><h3>CSS</h3><p>Membuat tampilan website yang responsif dan menarik.</p><div class="skill-track"><span style="width:68%"></span></div><small>SEDANG DIKEMBANGKAN</small></article>
+        <article class="skill-card reveal"><div class="skill-icon">JS</div><h3>JavaScript</h3><p>Menambahkan interaksi dan fungsi pada halaman website.</p><div class="skill-track"><span style="width:48%"></span></div><small>SEDANG DIPELAJARI</small></article>
+        <article class="skill-card reveal"><div class="skill-icon">C++</div><h3>C++</h3><p>Melatih dasar pemrograman, logika, dan struktur data.</p><div class="skill-track"><span style="width:58%"></span></div><small>SEDANG DIKEMBANGKAN</small></article>
+      </div>
+      <p class="skill-note">* Indikator kemampuan bersifat gambaran awal dan bisa kamu sesuaikan.</p>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-label reveal">03 / PROYEK PILIHAN</div>
+      <div class="section-title-row reveal"><h2 class="section-heading">Selected <span>Works.</span></h2><p>Contoh kategori proyek untuk diisi dengan hasil karyamu.</p></div>
+      <div class="projects-grid">
+        <article class="project-card reveal"><div class="project-visual visual-one"><span>WEB</span><div class="mock-window"><i></i><i></i><i></i><b></b><b></b><b></b></div></div><div class="project-info"><div><small>01 / WEB DEVELOPMENT</small><h3>Website Portfolio</h3></div><span class="project-arrow">↗</span><p>Website personal untuk memperkenalkan profil, kemampuan, dan karya.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div></article>
+        <article class="project-card reveal"><div class="project-visual visual-two"><span>SYSTEM</span><div class="dashboard-shape"><i></i><i></i><i></i><b></b></div></div><div class="project-info"><div><small>02 / INFORMATION SYSTEM</small><h3>Sistem Informasi</h3></div><span class="project-arrow">↗</span><p>Konsep sistem untuk membantu pengelolaan data dan kebutuhan pengguna.</p><div class="tags"><span>Analysis</span><span>UI Design</span><span>Database</span></div></div></article>
+        <article class="project-card reveal"><div class="project-visual visual-three"><span>PROGRAMMING</span><div class="code-shape"><b>&lt;/&gt;</b><i></i><i></i><i></i></div></div><div class="project-info"><div><small>03 / BASIC PROGRAMMING</small><h3>Program C++</h3></div><span class="project-arrow">↗</span><p>Latihan program untuk mengasah logika dan pemahaman dasar pemrograman.</p><div class="tags"><span>C++</span><span>Logic</span><span>Data Structure</span></div></div></article>
+      </div>
+      <p class="project-note">Catatan: kartu di atas masih berupa contoh. Ganti dengan proyek asli, deskripsi, dan tautan GitHub/demo milikmu.</p>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="contact-panel reveal">
+        <div class="section-label">04 / KONTAK</div>
+        <p class="contact-kicker">PUNYA IDE ATAU PROYEK?</p>
+        <h2>Mari buat sesuatu<br><span>yang hebat.</span></h2>
+        <p class="contact-desc">Saya terbuka untuk berdiskusi, belajar bersama, maupun berkolaborasi dalam proyek digital.</p>
+        <a class="button whatsapp-button" id="whatsappButton" href="#" target="_blank" rel="noopener">Chat saya via WhatsApp <span>↗</span></a>
+        <div class="contact-bottom"><span>LET'S CONNECT</span><span>INDONESIA · 2026</span></div>
+      </div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#home">N<span>.</span></a><p>© <span id="year"></span> Naufal Fatih. Dibuat dengan semangat belajar.</p><a href="#home">Kembali ke atas ↑</a></footer>
+  <a class="floating-wa" id="floatingWa" href="#" target="_blank" rel="noopener" aria-label="Chat WhatsApp">✆</a>
+  <script src="script.js"></script>
+</body>
+</html>
